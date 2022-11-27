@@ -1,0 +1,23 @@
+@use './settings' as setting;
+
+/*
+  En esta capa estarán:
+    1. piezas de ui ya diseñadas
+    2. colores, tipografías, branding de la marca o empresa
+    3. exclusivamente se usaran selectores de clases
+*/
+
+
+.header_container{
+  display: flex;
+  width: auto;
+  height: 334px;
+  justify-content: center;
+  align-content: center;
+  background: linear-gradient(.25turn ,#201E1C, #F7931A);
+}
+
+.header_container-head{
+  font-family: 'DM Sans';
+}
+

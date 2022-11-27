@@ -1,0 +1,57 @@
+$breakPoints: (
+    // zero
+    zr: 0,
+    // mobile
+    mb: 320px,
+    // landscape
+    ls: 576px,
+    // tablet
+    tb: 768px,
+    // desktop
+    dt: 992px,
+    // extra desktop
+    xd: 1200px
+    );
+    /*
+      En esta capa estarán:
+        1. configuraciones disponibles globalmente
+        2. cambios de configuraciones
+        3. colores representativos de la marca o empresa
+    */
+    
+    // Sizes breakpoints
+
+// Line height
+$lineHeight: 1.2;
+
+// List of z-index
+$zindexs: (
+    one: 1000,
+    two: 2000,
+    three: 3000,
+    four: 4000,
+    five: 5000,
+);
+
+// Colors palette Change for project
+$colors: (
+    primary: #531bba,
+    primaryLight: #cba0ff,
+    primaryDark: #150132,
+    accent: #ffa800,
+    accentLight: #ffc500,
+    accentDark: #bc791c,
+    warn: #ff3a2d,
+    warnLight: #fe294c,
+    warnDark: #a41a31,
+    success: #1de9b6,
+    successLight: #64ffda,
+    successDark: #00bfa5,
+    light: #f5f5f5,
+    dark: #393939,
+    gray: #b5b5b5,
+    grayLight: #dbdbdb,
+    grayDark: #535353,
+    white: #ffffff,
+    black: #000000,
+);
