@@ -7,17 +7,61 @@
     3. exclusivamente se usaran selectores de clases
 */
 
-
-.header_container{
-  display: flex;
+.header_container {
+  display: col;
   width: auto;
   height: 334px;
-  justify-content: center;
-  align-content: center;
-  background: linear-gradient(.25turn ,#201E1C, #F7931A);
+  text-align: center;
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+
 }
 
-.header_container-head{
-  font-family: 'DM Sans';
+.header_container-head {
+  padding-top: 54px;
+}
+
+.header_container-body {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.header_container-footer {
+  color: #FFE9D5;
+  font-size: 14px;
+}
+
+
+
+.container_planes{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 305px;
+  left: 45.5px;
+  z-index: 2000;
+  
+
+}
+.planes_button{
+  background: #FAF8F7;
+  width: 229px;
+  height: 48px;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border-radius: 4px;
+}
+
+.section_one {  
+  background: #e5e5e550;
+}
+
+.section_one-head{
+  display: flex;
+  justify-content: center;
+  img{
+    padding-top: 59px;
+  }
 }
 
