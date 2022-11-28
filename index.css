@@ -340,7 +340,6 @@ template {
     3. exclusivamente se usaran selectores de clases
 */
 .header_container {
-  display: col;
   width: auto;
   height: 334px;
   text-align: center;
@@ -351,11 +350,12 @@ template {
   padding-top: 54px;
 }
 
-.header_container-body {
+.header_container-body h4 {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 24px;
   line-height: 26px;
+  letter-spacing: 1.2px;
 }
 
 .header_container-footer {
@@ -364,8 +364,6 @@ template {
 }
 
 .container_planes {
-  display: flex;
-  flex-direction: row;
   position: absolute;
   top: 305px;
   left: 45.5px;
@@ -381,8 +379,13 @@ template {
   border-radius: 4px;
 }
 
+.planes_button:hover {
+  border: #F7931A solid 1px;
+}
+
 .section_one {
   background: rgba(229, 229, 229, 0.3137254902);
+  text-align: center;
 }
 
 .section_one-head {
@@ -391,6 +394,22 @@ template {
 }
 .section_one-head img {
   padding-top: 59px;
+}
+
+.section_one-body {
+  display: inline-block;
+  margin-top: 40px;
+}
+.section_one-body h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #201E1C;
+}
+.section_one-body h6 {
+  margin: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(117, 117, 117, 0.5882352941);
 }
 
 /*
