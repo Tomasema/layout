@@ -1,14 +1,15 @@
-@use './settings' as setting;
+@use "./settings" as setting;
 
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-  font-family: 'DM sans';
+  font-family: "DM sans";
 }
 
 html,
 body {
+  background: #e5e5e525;
   height: 100%;
 }
 
@@ -189,7 +190,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -199,7 +201,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 

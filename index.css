@@ -14,6 +14,7 @@
 
 html,
 body {
+  background: rgba(229, 229, 229, 0.1450980392);
   height: 100%;
 }
 
@@ -178,7 +179,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -187,7 +189,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -343,7 +346,7 @@ template {
   width: auto;
   height: 334px;
   text-align: center;
-  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 
 .header_container-head {
@@ -351,7 +354,7 @@ template {
 }
 
 .header_container-body h4 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 24px;
   line-height: 26px;
@@ -359,32 +362,31 @@ template {
 }
 
 .header_container-footer {
-  color: #FFE9D5;
+  color: #ffe9d5;
   font-size: 14px;
 }
 
 .container_planes {
-  position: absolute;
-  top: 305px;
-  left: 45.5px;
+  position: relative;
+  top: 35px;
   z-index: 2000;
 }
 
 .planes_button {
-  background: #FAF8F7;
+  background: #faf8f7;
   width: 229px;
   height: 48px;
   border: none;
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   border-radius: 4px;
+  font-weight: bold;
 }
 
 .planes_button:hover {
-  border: #F7931A solid 1px;
+  border: #f7931a solid 1px;
 }
 
 .section_one {
-  background: rgba(229, 229, 229, 0.3137254902);
   text-align: center;
 }
 
@@ -403,13 +405,16 @@ template {
 .section_one-body h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #201E1C;
+  color: #201e1c;
+  padding-left: 7px;
 }
-.section_one-body h6 {
+.section_one-body h3 {
   margin: 15px;
   font-weight: 600;
   font-size: 14px;
-  color: rgba(117, 117, 117, 0.5882352941);
+  color: rgba(117, 117, 117, 0.8901960784);
+  line-height: 18px;
+  letter-spacing: 0.3px;
 }
 
 /*

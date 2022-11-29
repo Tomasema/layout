@@ -1,4 +1,4 @@
-@use './settings' as setting;
+@use "./settings" as setting;
 
 /*
   En esta capa estarán:
@@ -7,12 +7,12 @@
     3. exclusivamente se usaran selectores de clases
 */
 
+// Header
 .header_container {
   width: auto;
   height: 334px;
   text-align: center;
-  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
-
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 
 .header_container-head {
@@ -21,7 +21,7 @@
 
 .header_container-body {
   h4 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 700;
     font-size: 24px;
     line-height: 26px;
@@ -30,39 +30,32 @@
 }
 
 .header_container-footer {
-  color: #FFE9D5;
+  color: #ffe9d5;
   font-size: 14px;
 }
 
-
-
 .container_planes {
-  position: absolute;
-  top: 305px;
-  left: 45.5px;
+  position: relative;
+  top: 35px;
   z-index: 2000;
-
-
 }
 
 .planes_button {
-
-  background: #FAF8F7;
+  background: #faf8f7;
   width: 229px;
   height: 48px;
   border: none;
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   border-radius: 4px;
-
-
+  font-weight: bold;
 }
 
 .planes_button:hover {
-  border: #F7931A solid 1px;
+  border: #f7931a solid 1px;
 }
 
+// Section-one
 .section_one {
-  background: #e5e5e550;
   text-align: center;
 }
 
@@ -73,7 +66,6 @@
   img {
     padding-top: 59px;
   }
-
 }
 
 .section_one-body {
@@ -83,13 +75,16 @@
   h2 {
     font-size: 24px;
     font-weight: 700;
-    color: #201E1C;
+    color: #201e1c;
+    padding-left: 7px;
   }
 
-  h6 {
+  h3 {
     margin: 15px;
     font-weight: 600;
     font-size: 14px;
-    color: #75757596;
+    color: #757575e3;
+    line-height: 18px;
+    letter-spacing: 0.3px;
   }
 }
