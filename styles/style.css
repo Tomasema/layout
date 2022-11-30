@@ -342,18 +342,18 @@ template {
     2. colores, tipografías, branding de la marca o empresa
     3. exclusivamente se usaran selectores de clases
 */
-.header_container {
+.header__container {
   width: auto;
   height: 334px;
   text-align: center;
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 
-.header_container-head {
+.header__container-head {
   padding-top: 54px;
 }
 
-.header_container-body h4 {
+.header__container-body h4 {
   color: #ffffff;
   font-weight: 700;
   font-size: 24px;
@@ -361,18 +361,18 @@ template {
   letter-spacing: 1.2px;
 }
 
-.header_container-footer {
+.header__container-footer {
   color: #ffe9d5;
   font-size: 14px;
 }
 
-.container_planes {
+.container__planes {
   position: relative;
   top: 35px;
   z-index: 2000;
 }
 
-.planes_button {
+.planes__button {
   background: #faf8f7;
   width: 229px;
   height: 48px;
@@ -382,39 +382,53 @@ template {
   font-weight: bold;
 }
 
-.planes_button:hover {
+.planes__button:hover {
   border: #f7931a solid 1px;
 }
 
-.section_one {
+.section__one {
   text-align: center;
 }
 
-.section_one-head {
+.section__one-head {
   display: flex;
   justify-content: center;
 }
-.section_one-head img {
+.section__one-head img {
   padding-top: 59px;
 }
 
-.section_one-body {
+.section__one-body {
   display: inline-block;
   margin-top: 40px;
 }
-.section_one-body h2 {
+.section__one-body h2 {
   font-size: 24px;
   font-weight: 700;
   color: #201e1c;
   padding-left: 7px;
 }
-.section_one-body h3 {
+.section__one-body h3 {
   margin: 15px;
   font-weight: 600;
   font-size: 14px;
   color: rgba(117, 117, 117, 0.8901960784);
   line-height: 18px;
   letter-spacing: 0.3px;
+}
+
+.section__trending-title p {
+  padding-right: 100px;
+  color: #ff9536;
+}
+
+.section__trending-table {
+  display: grid;
+  border: black solid 2px;
+  width: 197px;
+  height: 159px;
+  margin: auto;
+  margin-top: 12px;
 }
 
 /*
