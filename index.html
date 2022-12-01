@@ -9,27 +9,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
 
 </head>
 
 <body>
     <!-- Header contain-->
-    <header class="header__container">
+    <header class="header-container">
         <!-- head -->
-        <div class="header__container-head">
+        <div class="header-container--head">
             <img src="./assets/imgs/Papita.svg" alt="image.jpg">
         </div>
         <!-- body -->
-        <div class="header__container-body">
+        <div class="header-container--body">
             <h4>La próxima revolución <br> en el intercambio de criptomonedas.</h4>
         </div>
         <!-- footer -->
-        <div class="header__container-footer">
+        <div class="header-container--footer">
             <p>Batatabit te ayuda a navegar entre los <br> diferentes precios y tendencias.</p>
         </div>
         <!-- Button float -->
-        <div class="container__planes">
+        <div class="container-planes">
             <button class="planes__button">
                 Conoce nuestro Planes <img src="./assets/icons/Vector.svg" alt="icon">
             </button>
@@ -38,13 +39,13 @@
 
 
     <!-- Statistics-->
-    <section class="section__one">
+    <section class="section-one">
         <!-- head -->
-        <header class="section__one-head">
+        <header class="section-one--head">
             <img src="./assets/imgs/Bitcoin.svg" alt="image.png">
         </header>
         <!-- body -->
-        <div class="section__one-body">
+        <div class="section-one--body">
             <h2>
                 Visibilizamos todas las tasas de cambio.
             </h2>
@@ -53,58 +54,53 @@
             </h3>
         </div>
         <!-- Trending Table -->
-        <section>
-            <div class="section__trending-title">
-                <p>
-                    Monedas
+        <section class="main-tables-container">
+            <div class="main-currency-table">
+                <p class="currency-table--title">
+                    <b>Monedas</b>
                 </p>
-                <div>
-                    <table class="section__trending-table">
+                <div class="currency-table--container">
+                    <table>
                         <tr>
-                            <td>
+                            <td class="table__top-left">
                                 Bitcoin
                             </td>
-                            <td>
+                            <td class="table__top-right table__right">
                                 $1.96
-                                <span>
-                                    <img src="./assets/icons/trending-down.svg" alt="baja">
-                                </span>
+                                <span class="down"></span>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 Ethereum
                             </td>
-                            <td>
+                            <td class="table__right">
                                 $0.07
-                                <span>
-                                    <img src="./assets/icons/trending-up.svg" alt="alta">
-                                </span>
+                                <span class="up"></span>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 Ripple
                             </td>
-                            <td>
+                            <td class="table__right">
                                 $2.15
-                                <span>
-                                    <img src="./assets/icons/trending-down.svg" alt="baja">
-                                </span>
+                                <span class="down"></span>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td class="table__bottom-left">
                                 Stellar
                             </td>
-                            <td>
+                            <td class="table__bottom-right table__right">
                                 $4.96
-                                <span>
-                                    <img src="./assets/icons/trending-down.svg" alt="baja">
-                                </span>
+                                <span class="down"></span>
                             </td>
                         </tr>
                     </table>
+                </div>
+                <div class="currency-table--date">
+                    <p><b>Actualizado:</b> 19 de Julio 23:45 </p>
                 </div>
             </div>
         </section>

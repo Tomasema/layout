@@ -7,19 +7,18 @@
     3. exclusivamente se usaran selectores de clases
 */
 
-// Header
-.header__container {
+.header-container {
   width: auto;
   height: 334px;
   text-align: center;
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 
-.header__container-head {
+.header-container--head {
   padding-top: 54px;
 }
 
-.header__container-body {
+.header-container--body {
   h4 {
     color: #ffffff;
     font-weight: 700;
@@ -29,12 +28,12 @@
   }
 }
 
-.header__container-footer {
+.header-container--footer {
   color: #ffe9d5;
   font-size: 14px;
 }
 
-.container__planes {
+.container-planes {
   position: relative;
   top: 35px;
   z-index: 2000;
@@ -55,11 +54,11 @@
 }
 
 // Section-one
-.section__one {
+.section-one {
   text-align: center;
 }
 
-.section__one-head {
+.section-one--head {
   display: flex;
   justify-content: center;
 
@@ -68,7 +67,7 @@
   }
 }
 
-.section__one-body {
+.section-one--body {
   display: inline-block;
   margin-top: 40px;
 
@@ -89,18 +88,103 @@
   }
 }
 
-.section__trending-title {
-  p {
-    padding-right: 100px;
-    color: #ff9536;
+.main-currency-table {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+
+  .currency-table--title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: #f7931a;
   }
 }
 
-.section__trending-table {
-  display: grid;
-  border: black solid 2px;
-  width: 197px;
-  height: 159px;
-  margin: auto;
-  margin-top: 12px;
+.currency-table--container {
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
+
+  table {
+    width: 100%;
+    height: 100%;
+  }
+
+  td {
+    width: 50%;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+    color: #b5b0ac;
+    background-color: white;
+  }
+}
+// Box's table //
+.currency-table--container {
+  .table__top-left {
+    border-radius: 15px 0 0 0;
+  }
+
+  .table__top-right {
+    border-radius: 0 15px 0 0;
+  }
+
+  .table__bottom-left {
+    border-radius: 0 0 0 15px;
+  }
+
+  .table__bottom-right {
+    border-radius: 0 0 15px 0;
+  }
+}
+
+%trending {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.currency-table--container {
+  .table__right {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.3rem;
+    color: #666666;
+  }
+  .down {
+    @extend %trending;
+    background-image: url("../../assets/icons/trending-down.svg");
+  }
+  .up {
+    @extend %trending;
+    background-image: url("../../assets/icons/trending-up.svg");
+  }
+}
+
+.currency-table--date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: #ffe9d4;
+  border-radius: 8px;
+  p {
+    font-size: 13px;
+    line-height: 15px;
+    color: #201e1c;
+  }
 }
