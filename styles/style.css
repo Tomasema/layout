@@ -418,17 +418,21 @@ template {
 }
 
 .section__trending-title p {
-  padding-right: 100px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 23.44px;
+  padding-right: 95px;
   color: #ff9536;
 }
 
-.section__trending-table {
+.section-trending--table {
   display: grid;
   border: black solid 2px;
   width: 197px;
   height: 159px;
-  margin: auto;
-  margin-top: 12px;
+  margin: 0 auto;
 }
 
 /*
