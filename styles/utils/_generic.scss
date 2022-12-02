@@ -4,12 +4,12 @@
 *:before,
 *:after {
   box-sizing: border-box;
-  font-family: "DM sans";
+  font-family: "DM sans", sans-serif;
 }
 
 html,
 body {
-  background: #e5e5e53f;
+  background: setting.$offWhite;
   height: 100%;
 }
 

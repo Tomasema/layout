@@ -1,3 +1,9 @@
+/*
+      En esta capa estarán:
+        1. configuraciones disponibles globalmente
+        2. cambios de configuraciones
+        3. colores representativos de la marca o empresa
+    */
 $breakPoints: (
     // zero
     zr: 0,
@@ -11,15 +17,7 @@ $breakPoints: (
     dt: 992px,
     // extra desktop
     xd: 1200px
-    );
-    /*
-      En esta capa estarán:
-        1. configuraciones disponibles globalmente
-        2. cambios de configuraciones
-        3. colores representativos de la marca o empresa
-    */
-    
-    // Sizes breakpoints
+);
 
 // Line height
 $lineHeight: 1.2;
@@ -34,7 +32,14 @@ $zindexs: (
 );
 
 // Colors palette Change for project
-    $primary: #F7931A;
-    $secondary: #FFFFFF;
-    $primaryDark: #201E1C;
-    $accentLight: #FFE9D5;
+
+$bitcoinOrange: #ff8f07;
+$softOrange: #ffe9d5;
+$secondaryBlue: #1a9af7;
+$softBlue: #e7f5ff;
+$warnBlack: #201e1c;
+$warnBlack2: #282623;
+$grey: #757575e3;
+$softGrey: #bababa;
+$offWhite: #faf8f7;
+$justWhite: #ffffff;

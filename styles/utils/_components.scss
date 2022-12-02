@@ -20,7 +20,7 @@
 
 .header-container--body {
   h4 {
-    color: #ffffff;
+    color: setting.$justWhite;
     font-weight: 700;
     font-size: 24px;
     line-height: 26px;
@@ -29,7 +29,7 @@
 }
 
 .header-container--footer {
-  color: #ffe9d5;
+  color: setting.$softOrange;
   font-size: 14px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .planes__button {
-  background: #faf8f7;
+  background: setting.$offWhite;
   width: 229px;
   height: 48px;
   border: none;
@@ -50,7 +50,7 @@
 }
 
 .planes__button:hover {
-  border: #f7931a solid 1px;
+  border: setting.$bitcoinOrange solid 1px;
 }
 
 // Section-one
@@ -74,18 +74,22 @@
   h2 {
     font-size: 24px;
     font-weight: 700;
-    color: #201e1c;
+    color: setting.$warnBlack;
     padding-left: 7px;
   }
 
   h3 {
     margin: 15px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
-    color: #757575e3;
+    color: setting.$grey;
     line-height: 18px;
     letter-spacing: 0.3px;
   }
+}
+
+.main-tables-container {
+  margin-top: 48px;
 }
 
 .main-currency-table {
@@ -94,13 +98,16 @@
   max-width: 500px;
   height: 360px;
   margin: 0 auto;
+  text-align: start;
 
   .currency-table--title {
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin-right: 125px;
     font-size: 18px;
-    font-weight: bold;
-    line-height: 2.3rem;
-    color: #f7931a;
+    font-weight: 600;
+    line-height: 0.5rem;
+    color: setting.$bitcoinOrange;
   }
 }
 
@@ -108,7 +115,7 @@
   width: 90%;
   min-width: 230px;
   max-width: 300px;
-  height: 250px;
+  height: 170px;
   margin: 0 auto;
 
   table {
@@ -118,30 +125,29 @@
 
   td {
     width: 50%;
-    font-family: "Inter", sans-serif;
     font-size: 1rem;
-    font-weight: bold;
-    line-height: 1.3rem;
-    color: #b5b0ac;
-    background-color: white;
+    font-weight: 500;
+    color: setting.$softGrey;
+    background-color: setting.$justWhite;
+    padding-left: 12px;
   }
 }
 // Box's table //
 .currency-table--container {
   .table__top-left {
-    border-radius: 15px 0 0 0;
+    border-radius: 8px 0 0 0;
   }
 
   .table__top-right {
-    border-radius: 0 15px 0 0;
+    border-radius: 0 8px 0 0;
   }
 
   .table__bottom-left {
-    border-radius: 0 0 0 15px;
+    border-radius: 0 0 0 8px;
   }
 
   .table__bottom-right {
-    border-radius: 0 0 15px 0;
+    border-radius: 0 0 8px 0;
   }
 }
 
@@ -157,10 +163,11 @@
 
 .currency-table--container {
   .table__right {
-    font-size: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
     font-weight: normal;
     line-height: 1.3rem;
-    color: #666666;
+    color: #757575;
   }
   .down {
     @extend %trending;
@@ -180,11 +187,11 @@
   height: 30px;
   margin: 0 auto;
   margin-top: 15px;
-  background-color: #ffe9d4;
+  background-color: setting.$softOrange;
   border-radius: 8px;
   p {
     font-size: 13px;
     line-height: 15px;
-    color: #201e1c;
+    color: setting.$warnBlack;
   }
 }

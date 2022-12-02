@@ -1,20 +1,20 @@
 @charset "UTF-8";
 /*
-  En esta capa estarán:
-    1. configuraciones disponibles globalmente
-    2. cambios de configuraciones
-    3. colores representativos de la marca o empresa
-*/
+      En esta capa estarán:
+        1. configuraciones disponibles globalmente
+        2. cambios de configuraciones
+        3. colores representativos de la marca o empresa
+    */
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-  font-family: "DM sans";
+  font-family: "DM sans", sans-serif;
 }
 
 html,
 body {
-  background: rgba(229, 229, 229, 0.2470588235);
+  background: #faf8f7;
   height: 100%;
 }
 
@@ -383,7 +383,7 @@ template {
 }
 
 .planes__button:hover {
-  border: #f7931a solid 1px;
+  border: #ff8f07 solid 1px;
 }
 
 .section-one {
@@ -410,11 +410,15 @@ template {
 }
 .section-one--body h3 {
   margin: 15px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   color: rgba(117, 117, 117, 0.8901960784);
   line-height: 18px;
   letter-spacing: 0.3px;
+}
+
+.main-tables-container {
+  margin-top: 48px;
 }
 
 .main-currency-table {
@@ -423,20 +427,23 @@ template {
   max-width: 500px;
   height: 360px;
   margin: 0 auto;
+  text-align: start;
 }
 .main-currency-table .currency-table--title {
-  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  margin-right: 125px;
   font-size: 18px;
-  font-weight: bold;
-  line-height: 2.3rem;
-  color: #f7931a;
+  font-weight: 600;
+  line-height: 0.5rem;
+  color: #ff8f07;
 }
 
 .currency-table--container {
   width: 90%;
   min-width: 230px;
   max-width: 300px;
-  height: 250px;
+  height: 170px;
   margin: 0 auto;
 }
 .currency-table--container table {
@@ -445,25 +452,24 @@ template {
 }
 .currency-table--container td {
   width: 50%;
-  font-family: "Inter", sans-serif;
   font-size: 1rem;
-  font-weight: bold;
-  line-height: 1.3rem;
-  color: #b5b0ac;
-  background-color: white;
+  font-weight: 500;
+  color: #bababa;
+  background-color: #ffffff;
+  padding-left: 12px;
 }
 
 .currency-table--container .table__top-left {
-  border-radius: 15px 0 0 0;
+  border-radius: 8px 0 0 0;
 }
 .currency-table--container .table__top-right {
-  border-radius: 0 15px 0 0;
+  border-radius: 0 8px 0 0;
 }
 .currency-table--container .table__bottom-left {
-  border-radius: 0 0 0 15px;
+  border-radius: 0 0 0 8px;
 }
 .currency-table--container .table__bottom-right {
-  border-radius: 0 0 15px 0;
+  border-radius: 0 0 8px 0;
 }
 
 .currency-table--container .up, .currency-table--container .down {
@@ -477,10 +483,11 @@ template {
 }
 
 .currency-table--container .table__right {
-  font-size: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
   font-weight: normal;
   line-height: 1.3rem;
-  color: #666666;
+  color: #757575;
 }
 .currency-table--container .down {
   background-image: url("../../assets/icons/trending-down.svg");
@@ -497,7 +504,7 @@ template {
   height: 30px;
   margin: 0 auto;
   margin-top: 15px;
-  background-color: #ffe9d4;
+  background-color: #ffe9d5;
   border-radius: 8px;
 }
 .currency-table--date p {
