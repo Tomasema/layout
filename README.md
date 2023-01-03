@@ -1,9 +1,13 @@
-# Practicas en Mobile Design
+# Practice in Mobile First Desing
 
 ---
 
-> Practice desing in `CSS` and `SCSS` for responsive mobile. Guide taken from Platzi Academi.
+```
+Guide taken from Platzi Academi.
+```
+
+- Practice desing in `CSS` and `SCSS` for responsive mobile. 
 
 ---
 
-Thanks for view my simple proyect ;)
+ ##### `Thanks for view my simple proyect ;)`
